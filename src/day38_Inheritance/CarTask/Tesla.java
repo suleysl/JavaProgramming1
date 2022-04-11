@@ -7,5 +7,11 @@ public class Tesla extends Car {
         super(brand, model, year, price, colour, miles);
     }
 
+    public void electricCar(){
+        System.out.println(model + " " + brand + " is Electric Car");
+    }
+
+
+
 
 }
